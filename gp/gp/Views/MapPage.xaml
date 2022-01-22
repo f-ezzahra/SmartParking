@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             mc:Ignorable="d"
+             xmlns:livreurVm="clr-namespace:gp.ViewModels"
+             x:Class="gp.MapPage"
+             Title="Suivre commande">
+    
+    <ContentPage.BindingContext>
+        <livreurVm:LivreurViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" >
+            <maps:Map x:Name="MyMap"
+                  MapClicked="MyMap_MapClicked"          
+                  IsShowingUser="true"                
+                  MapType="Street"
+                  VerticalOptions="FillAndExpand"
+                  HorizontalOptions="FillAndExpand" />
+
+            <Button Text="Adresse collection" BackgroundColor="AntiqueWhite"  Clicked="col"></Button>
+            
+            
+            <Button Text="Adresse livraison" BackgroundColor="AntiqueWhite"  Clicked="liv"></Button>
+
+
+            <Button Text="Livreurs à proximité" BackgroundColor="AntiqueWhite"  Clicked="lv"></Button>
+
+
+            <Button Text="Choisir le plus proche livreur" BackgroundColor="AntiqueWhite"  Clicked="traj"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>   

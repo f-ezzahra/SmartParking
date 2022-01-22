@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955000904465",
+    "firebase_url": "https://gptest-b2692.firebaseio.com",
+    "project_id": "gptest-b2692",
+    "storage_bucket": "gptest-b2692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955000904465:android:1351728a49e7f187600ab0",
+        "android_client_info": {
+          "package_name": "com.companyname.gp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955000904465-jdjpi7h45adkvk15vmbkv2139gkphnl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIz5JBB0xRBCSL8mB6MjPc-O6hz18VIZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955000904465-jdjpi7h45adkvk15vmbkv2139gkphnl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gp.Views.Home">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="GhostWhite" Padding="24" CornerRadius="0">
+                <Label Text="Welcome to Smart Parking!" HorizontalTextAlignment="Center" TextColor="DarkBlue" FontSize="36"/>
+            </Frame>
+
+            <Image Source="XamarinLogo"
+       WidthRequest="{OnPlatform iOS=300, Android=250}"
+       HorizontalOptions="Center" />
+            <StackLayout Margin="9">
+                <Image Source="car.jpg" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300, Android=250}"/>
+            </StackLayout>
+            <Button Clicked="Button_Clicked2" BackgroundColor="DarkBlue" TextColor="White" Text="Google Maps" VerticalOptions="Center" />
+            <Button Clicked="Button_Clicked" BackgroundColor="DarkBlue" TextColor="White" Text="Sign up" VerticalOptions="Center" />
+            <Button Clicked="OnclickedButtonNextPage" BackgroundColor="DarkBlue" TextColor="White" Text="login" VerticalOptions="Center" />
+            <Button Clicked="Contact" BackgroundColor="DarkBlue" TextColor="White" Text="Contact us" VerticalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

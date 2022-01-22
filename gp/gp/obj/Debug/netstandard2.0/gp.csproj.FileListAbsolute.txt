@@ -1,0 +1,98 @@
+C:\Users\a\Desktop\gp\gp\gp\bin\Debug\netstandard2.0\gp.deps.json
+C:\Users\a\Desktop\gp\gp\gp\bin\Debug\netstandard2.0\gp.dll
+C:\Users\a\Desktop\gp\gp\gp\bin\Debug\netstandard2.0\ref\gp.dll
+C:\Users\a\Desktop\gp\gp\gp\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\a\Desktop\gp\gp\gp\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\a\Desktop\gp\gp\gp\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\gp.csprojAssemblyReference.cache
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\GPS.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\AddColisPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\AddLivraisonPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\CreateLivreur.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\EditColisPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\EditLivraisonPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\GestionLivreurs.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\ListOfLivreurs.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\LivraisonDetailsPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\LivraisonsListPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\MapPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\Views\UpdateOrDeleteLivreur.xaml.g.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\gp.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\gp.AssemblyInfo.cs
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\gp.csproj.Fody.CopyLocal.cache
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\gp.csproj.CopyComplete
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\gp.dll
+C:\Users\a\Desktop\gp\gp\gp\obj\Debug\netstandard2.0\ref\gp.dll
+C:\Users\a\Desktop\App_Livraison\gp\gp\bin\Debug\netstandard2.0\gp.deps.json
+C:\Users\a\Desktop\App_Livraison\gp\gp\bin\Debug\netstandard2.0\gp.dll
+C:\Users\a\Desktop\App_Livraison\gp\gp\bin\Debug\netstandard2.0\ref\gp.dll
+C:\Users\a\Desktop\App_Livraison\gp\gp\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\a\Desktop\App_Livraison\gp\gp\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\a\Desktop\App_Livraison\gp\gp\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\gp.csprojAssemblyReference.cache
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\AddColisPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\AddLivraisonPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\CreateLivreur.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\EditColisPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\EditLivraisonPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\GestionLivreurs.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\ListOfLivreurs.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\LivraisonDetailsPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\LivraisonsListPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\MapPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\UpdateOrDeleteLivreur.xaml.g.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\gp.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\gp.AssemblyInfo.cs
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\gp.csproj.Fody.CopyLocal.cache
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\gp.csproj.CopyComplete
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\gp.dll
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\ref\gp.dll
+C:\Users\a\Desktop\App_Livraison\gp\gp\obj\Debug\netstandard2.0\Views\GPS.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\bin\Debug\netstandard2.0\gp.deps.json
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\bin\Debug\netstandard2.0\gp.dll
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\bin\Debug\netstandard2.0\ref\gp.dll
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\gp.csproj.AssemblyReference.cache
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\gp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\AddColisPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\AddLivraisonPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\CreateLivreur.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\EditColisPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\EditLivraisonPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\GestionLivreurs.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\GPS.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\ListOfLivreurs.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\LivraisonDetailsPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\LivraisonsListPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\MapPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\UpdateOrDeleteLivreur.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\gp.AssemblyInfoInputs.cache
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\gp.AssemblyInfo.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\gp.csproj.CoreCompileInputs.cache
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\gp.csproj.Fody.CopyLocal.cache
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\gp.dll
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\ref\gp.dll
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\Maps.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\admin.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\login2.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\reservation.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\auth.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\Home.xaml.g.cs
+C:\Users\T460\Desktop\3i\App de Livraison\gp\gp\obj\Debug\netstandard2.0\Views\insc.xaml.g.cs

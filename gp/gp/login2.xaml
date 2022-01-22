@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:livreursVm="clr-namespace:gp.ViewModels"
+             x:Class="gp.login2">
+    
+        <ContentPage.BindingContext>
+            <livreursVm:LivreurViewModel/>
+        </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Frame Margin="10,10,10,-10" OutlineColor="DarkBlue" HasShadow="true">
+            <StackLayout VerticalOptions="StartAndExpand" BackgroundColor="WhiteSmoke">
+                <Label Text="Nom utilisateur" FontAttributes="Bold" />
+                <Entry x:Name="usernameEntry" Placeholder="Utlisateur" />
+                <Label Text="Mot de passe" FontAttributes="Bold" />
+                <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="Mot de passe" />
+                <Frame HasShadow="true">
+                    <Button Text="S'authetifier" TextColor="DarkBlue" BackgroundColor="WhiteSmoke"  Clicked="OnLoginButtonClicked" />
+                </Frame>
+                <Label x:Name="messageLabel" />
+                <Image Source="car.jpg" />
+            </StackLayout>
+        </Frame>
+
+    </ContentPage.Content>
+
+</ContentPage>

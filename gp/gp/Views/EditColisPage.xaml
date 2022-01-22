@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="gp.ViewModels.EditColisPage"
+             Title="Modifier colis">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sauvegarder"
+                     Icon="ic_save.png"
+                     Command="{Binding SaveColisCommand}" />
+
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <Frame  OutlineColor="Gray" HasShadow="true">
+            <StackLayout BackgroundColor="WhiteSmoke">
+
+                <Label Text="{Binding LivraisonName, StringFormat='Colis de : {0}'}"
+                   Margin="4,12,4,4" />
+
+                <Entry Placeholder="Nom du colis"
+                   Text="{Binding Nom}"
+                   Margin="4" />
+
+                <Entry Placeholder="Type du colis"
+                   Text="{Binding Type}"
+                   Margin="4" />
+
+                <Entry Placeholder="Reference du colis"
+                   Text="{Binding Reference}"
+                   Margin="4" />
+
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
+   

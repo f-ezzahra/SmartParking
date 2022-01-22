@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="gp.Views.MainPage"
+             xmlns:livreursVm="clr-namespace:gp.ViewModels"
+             Title="welcome to our smart parking" BackgroundColor="GhostWhite" Padding="20">
+    
+    <ContentPage.BindingContext>
+        <livreursVm:LivreurViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="log out" Icon="signoff.jpg" Clicked="OnLogoutButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        
+        <StackLayout Padding="20">
+       
+            <Frame  HasShadow="true">
+                <Button Text="administration" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding NavToLiv}"/></Frame>
+            <Frame  HasShadow="true">
+                <Button Text="Reserver" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding NavToListreservation}"/>
+            </Frame>
+            <Frame  HasShadow="true">
+                <Button Text="GPS" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding navcommand}"/>
+            </Frame>
+            <Frame  HasShadow="true">
+                <Button Text="Maps" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding navmaps}"/>
+            </Frame>
+            <Image Source="car.png" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

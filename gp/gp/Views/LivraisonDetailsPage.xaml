@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             mc:Ignorable="d"
+             x:Class="gp.Views.LivraisonDetailsPage"
+             Title="Reserver">
+
+    <ContentPage.ToolbarItems>
+        
+
+        <ToolbarItem Text="Modifier livraison"
+                     Icon="ic_edit.png"
+                     Command="{Binding EditLivraisonCommand}" />
+
+        <ToolbarItem Text="Supprimer livraison"
+                     Icon="ic_delete.png"
+                     Command="{Binding DeleteLivraisonCommand}" />
+
+      
+   </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame Margin="10,10,10,-10" OutlineColor="Gray" HasShadow="true">
+                <Grid BackgroundColor="WhiteSmoke">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Label Text="{Binding NomEmetteur}"
+                       Margin="8"
+                       FontSize="Medium"
+                       Grid.Row="0" />
+
+                    <Label Text="{Binding CINEmetteur}"
+                       Grid.Row="1"
+                       FontSize="Small"
+                       Margin="8" />
+
+                    <Label Text="{Binding Tel}"
+                       Grid.Row="2"
+                       FontSize="Small"
+                       Margin="8" />
+
+                    <Label Text="{Binding Adresse1}"
+                       Grid.Row="3"
+                       FontSize="Small"
+                       Margin="8" />
+
+                    <Label Text="{Binding NomCollecteur}"
+                       Grid.Row="4"
+                       FontSize="Small"
+                       Margin="8" />
+
+                    <Label Text="{Binding CINCollecteur}"
+                       Grid.Row="5"
+                       FontSize="Small"
+                       Margin="8" />
+
+                    <Label Text="{Binding Adresse2}"
+                       Grid.Row="6"
+                       FontSize="Small"
+                       Margin="8" />
+                        <Button Text="modifier reservation" TextColor="White" BackgroundColor="DarkBlue"  Command="{Binding EditLivraisonCommand}"/>
+                        <Button Text="supprimer reservation" TextColor="White" BackgroundColor="DarkBlue"  Command="{Binding DeleteLivraisonCommand}"/>
+                </Grid>
+            </Frame>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

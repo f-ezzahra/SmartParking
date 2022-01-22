@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="gp.Views.UpdateOrDeleteLivreur"
+             xmlns:customerVm="clr-namespace:gp.ViewModels"
+             Title="Modifier / Supprimer livreur">
+    
+    <ContentPage.BindingContext>
+        <customerVm:LivreurViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Frame Margin="10,10,10,-10" OutlineColor="Gray" HasShadow="true">
+            <StackLayout Padding="20" BackgroundColor="WhiteSmoke">
+                <Label Text="Entrez l'ID du livreur à modifier ou supprimer"/>
+                <Entry Text="{Binding LivreurDetails.LivreurId, Mode=TwoWay}"/>
+
+                <Label Text="Entrez le nom du livreur"/>
+                <Entry Text="{Binding LivreurDetails.LivreurName, Mode=TwoWay}"/>
+
+                <Label Text="Entrez le tele du livreur"/>
+                <Entry Text="{Binding LivreurDetails.LivreurTel, Mode=TwoWay}"/>
+
+                <Label Text="Entrez l'adresse du livreur"/>
+                <Entry Text="{Binding LivreurDetails.LivreurAdresse, Mode=TwoWay}"/>
+
+                <Button Text="Modifier" TextColor="Beige" BackgroundColor="DimGray"
+          Command="{Binding UpdateCommand}"/>
+
+                <Button Text="Supprimer" TextColor="Beige" BackgroundColor="DimGray"
+          Command="{Binding RemoveCommand}"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
