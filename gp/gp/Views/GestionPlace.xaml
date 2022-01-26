@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="gp.Views.GestionLivreurs"
+             xmlns:livreursVm="clr-namespace:gp.ViewModels"
+             Title="Reserver">
+
+    <ContentPage.BindingContext>
+        <livreursVm:PlaceViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Button Text="lister les places" BackgroundColor="DarkBlue" TextColor="White"
+          Command="{Binding NavToListCommand}"/>
+            <Button Text="ajouter des places" BackgroundColor="DarkBlue" TextColor="White"
+          Command="{Binding NavToCreateCommand}"/>
+            <Button Text="Modifier ou supprimer une place" BackgroundColor="DarkBlue" TextColor="White"
+          Command="{Binding NavToUpdateDeleteCommand}"/>
+            <Image Source="admin2.jpg" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="gp.Views.EditLivraisonPage"
+             Title="Modifier livraison">
+
+    
+
+    <ContentPage.Content>
+        <Frame Margin="10,10,10,-10" OutlineColor="White" HasShadow="true">
+            <StackLayout BackgroundColor="WhiteSmoke">
+
+                <Entry Placeholder="Nom et prénom"
+                   Text="{Binding NomEmetteur}"
+                   Margin="4" />
+
+                <Entry Placeholder="CIN"
+                   Text="{Binding CINEmetteur}"
+                   Margin="4" />
+
+                <Entry Placeholder="emplacement"
+                   Text="{Binding Tel}"
+                   Margin="4" />
+
+                <Entry Placeholder="numero du parking"  
+                   Text="{Binding Adresse1}"
+                   Margin="4" />
+
+               
+                <Button Text="modifier la reservation"
+          Command="{Binding SaveLivraisonCommand}"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

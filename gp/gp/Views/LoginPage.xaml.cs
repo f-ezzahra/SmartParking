@@ -50,5 +50,9 @@ namespace gp.Views
         {
             await Navigation.PushModalAsync(new Home());
         }
+        private async void OnSignUpAdminButtonClicked(object sender, EventArgs e)
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new login2());
+        }
     }
 }

@@ -6,31 +6,31 @@
              mc:Ignorable="d"
              x:Class="gp.Views.UpdateOrDeleteLivreur"
              xmlns:customerVm="clr-namespace:gp.ViewModels"
-             Title="Modifier / Supprimer livreur">
+             Title="modifier ou suprimmer des places">
     
     <ContentPage.BindingContext>
-        <customerVm:LivreurViewModel/>
+        <customerVm:PlaceViewModel/>
     </ContentPage.BindingContext>
     
     <ContentPage.Content>
         <Frame Margin="10,10,10,-10" OutlineColor="Gray" HasShadow="true">
             <StackLayout Padding="20" BackgroundColor="WhiteSmoke">
-                <Label Text="Entrez l'ID du livreur à modifier ou supprimer"/>
+                <Label Text="Entrez l'ID "/>
                 <Entry Text="{Binding LivreurDetails.LivreurId, Mode=TwoWay}"/>
 
-                <Label Text="Entrez le nom du livreur"/>
+                <Label Text="etat"/>
                 <Entry Text="{Binding LivreurDetails.LivreurName, Mode=TwoWay}"/>
 
-                <Label Text="Entrez le tele du livreur"/>
+                <Label Text="emplacement"/>
                 <Entry Text="{Binding LivreurDetails.LivreurTel, Mode=TwoWay}"/>
 
-                <Label Text="Entrez l'adresse du livreur"/>
+                <Label Text="numero de parkibg"/>
                 <Entry Text="{Binding LivreurDetails.LivreurAdresse, Mode=TwoWay}"/>
 
-                <Button Text="Modifier" TextColor="Beige" BackgroundColor="DimGray"
+                <Button Text="Modifier" TextColor="White" BackgroundColor="DarkBlue"
           Command="{Binding UpdateCommand}"/>
 
-                <Button Text="Supprimer" TextColor="Beige" BackgroundColor="DimGray"
+                <Button Text="Supprimer" TextColor="White" BackgroundColor="DarkBlue"
           Command="{Binding RemoveCommand}"/>
             </StackLayout>
         </Frame>

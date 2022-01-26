@@ -4,7 +4,7 @@
              x:Class="gp.GPS">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Get Position" Clicked="Button_Clicked"/>
+            <Button Text="Get Position" Clicked="Button_Clicked" BackgroundColor="DarkBlue" TextColor="White"/>
             <Label x:Name="la" Text="Latitude"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />

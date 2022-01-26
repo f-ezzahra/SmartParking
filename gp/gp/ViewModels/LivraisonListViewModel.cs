@@ -11,8 +11,8 @@ namespace gp.ViewModels
     public class LivraisonListViewModel : BaseViewModel
     {
 
-        private ObservableCollection<Livraison> allLivraisons;
-        public ObservableCollection<Livraison> AllLivraisons
+        private ObservableCollection<Reserver> allLivraisons;
+        public ObservableCollection<Reserver> AllLivraisons
         {
             get { return allLivraisons; }
             set
@@ -28,7 +28,7 @@ namespace gp.ViewModels
 
             Realm context = Realm.GetInstance();
 
-            AllLivraisons = new ObservableCollection<Livraison>(context.All<Livraison>());
+            AllLivraisons = new ObservableCollection<Reserver>(context.All<Reserver>());
 
             AddLivraisonCommand = new Command(async () => await Application.Current.MainPage.Navigation.PushAsync(new AddLivraisonPage()));
         }

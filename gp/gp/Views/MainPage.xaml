@@ -9,28 +9,30 @@
              Title="welcome to our smart parking" BackgroundColor="GhostWhite" Padding="20">
     
     <ContentPage.BindingContext>
-        <livreursVm:LivreurViewModel/>
+        <livreursVm:PlaceViewModel/>
     </ContentPage.BindingContext>
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="log out" Icon="signoff.jpg" Clicked="OnLogoutButtonClicked" />
+        <ToolbarItem Text="log out" Icon="admin.png" Clicked="OnLogoutButtonadminClicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        
+
         <StackLayout Padding="20">
-       
+            <Image Source="car.jpg"
+       WidthRequest="{OnPlatform iOS=250, Android=200}"
+       HorizontalOptions="Center" />
             <Frame  HasShadow="true">
-                <Button Text="administration" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding NavToLiv}"/></Frame>
+                <Button Text="Reserver" TextColor="White" BackgroundColor="DarkBlue" Command="{Binding NavToListreservation}"/>
+            </Frame>
+
             <Frame  HasShadow="true">
-                <Button Text="Reserver" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding NavToListreservation}"/>
+                <Button Text="GPS" TextColor="White" BackgroundColor="DarkBlue" Command="{Binding navmaps}"/>
             </Frame>
             <Frame  HasShadow="true">
-                <Button Text="GPS" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding navcommand}"/>
+                <Button Text="place diponible" TextColor="White" BackgroundColor="DarkBlue" Command="{Binding NavToListCommand}"/>
             </Frame>
-            <Frame  HasShadow="true">
-                <Button Text="Maps" TextColor="DarkBlue" BackgroundColor="WhiteSmoke" Command="{Binding navmaps}"/>
-            </Frame>
-            <Image Source="car.png" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

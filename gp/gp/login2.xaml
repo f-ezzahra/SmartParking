@@ -5,20 +5,20 @@
              x:Class="gp.login2">
     
         <ContentPage.BindingContext>
-            <livreursVm:LivreurViewModel/>
+            <livreursVm:PlaceViewModel/>
         </ContentPage.BindingContext>
     <ContentPage.Content>
         <Frame Margin="10,10,10,-10" OutlineColor="DarkBlue" HasShadow="true">
-            <StackLayout VerticalOptions="StartAndExpand" BackgroundColor="WhiteSmoke">
+            <StackLayout VerticalOptions="StartAndExpand" BackgroundColor="White">
                 <Label Text="Nom utilisateur" FontAttributes="Bold" />
                 <Entry x:Name="usernameEntry" Placeholder="Utlisateur" />
                 <Label Text="Mot de passe" FontAttributes="Bold" />
                 <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="Mot de passe" />
                 <Frame HasShadow="true">
-                    <Button Text="S'authetifier" TextColor="DarkBlue" BackgroundColor="WhiteSmoke"  Clicked="OnLoginButtonClicked" />
+                    <Button Text="S'authetifier" TextColor="White" BackgroundColor="DarkBlue"  Clicked="OnLoginButtonClicked" />
                 </Frame>
                 <Label x:Name="messageLabel" />
-                <Image Source="car.jpg" />
+                <Image Source="admin2.jpg" />
             </StackLayout>
         </Frame>
 

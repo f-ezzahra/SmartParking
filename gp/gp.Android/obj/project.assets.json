@@ -3240,11 +3240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp.Android\\gp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp.Android\\gp.Android.csproj",
       "projectName": "gp.Android",
-      "projectPath": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp.Android\\gp.Android.csproj",
+      "projectPath": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp.Android\\gp.Android.csproj",
       "packagesPath": "C:\\Users\\T460\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp.Android\\obj\\",
+      "outputPath": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3265,8 +3265,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp\\gp.csproj": {
-              "projectPath": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp\\gp.csproj"
+            "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp\\gp.csproj": {
+              "projectPath": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp\\gp.csproj"
             }
           }
         }

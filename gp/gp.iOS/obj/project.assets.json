@@ -2510,11 +2510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp.iOS\\gp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp.iOS\\gp.iOS.csproj",
       "projectName": "gp.iOS",
-      "projectPath": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp.iOS\\gp.iOS.csproj",
+      "projectPath": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp.iOS\\gp.iOS.csproj",
       "packagesPath": "C:\\Users\\T460\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2535,8 +2535,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp\\gp.csproj": {
-              "projectPath": "C:\\Users\\T460\\Desktop\\3i\\App de Livraison\\gp\\gp\\gp.csproj"
+            "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp\\gp.csproj": {
+              "projectPath": "C:\\Users\\T460\\Desktop\\3i\\SmartParking\\gp\\gp\\gp.csproj"
             }
           }
         }

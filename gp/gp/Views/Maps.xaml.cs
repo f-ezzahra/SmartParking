@@ -16,8 +16,8 @@ namespace gp.Views
         {
             InitializeComponent();
         }
-        
-            
+
+
         async void OnLocationButtonClicked(object sender, EventArgs e)
         {
             if (Device.RuntimePlatform == Device.iOS)

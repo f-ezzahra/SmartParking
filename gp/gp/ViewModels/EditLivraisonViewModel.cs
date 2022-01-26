@@ -93,7 +93,7 @@ namespace gp.ViewModels
 
             Realm context = Realm.GetInstance();
 
-            var livraison = context.Find<Livraison>(livraisonId);
+            var livraison = context.Find<Reserver>(livraisonId);
             _livraisonId = livraison.LivraisonId;
 
             NomEmetteur = livraison.NomEmetteur;
@@ -112,7 +112,7 @@ namespace gp.ViewModels
 
             Realm context = Realm.GetInstance();
 
-            var livraison = context.Find<Livraison>(_livraisonId);
+            var livraison = context.Find<Reserver>(_livraisonId);
 
             context.Write(() =>
             {
@@ -125,7 +125,7 @@ namespace gp.ViewModels
                 livraison.CINCollecteur = CINCollecteur;
                 livraison.Adresse2 = Adresse2;
 
-                context.Add<Livraison>(livraison, update: true);
+                context.Add<Reserver>(livraison, update: true);
             });
 
             await Application.Current.MainPage.Navigation.PopAsync();

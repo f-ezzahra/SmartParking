@@ -22,14 +22,35 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\AddReservationPage.xaml.cs">
+      <DependentUpon>AddReservationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AddPage.xaml.cs">
+      <DependentUpon>AddPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\EditReservationPage.xaml.cs">
+      <DependentUpon>EditReservationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\EditPage.xaml.cs">
+      <DependentUpon>EditPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\GestionPlace.xaml.cs">
+      <DependentUpon>GestionPlace.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\GPS.xaml.cs">
       <DependentUpon>GPS.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\CreateLivreur.xaml.cs">
-      <DependentUpon>CreateLivreur.xaml</DependentUpon>
+    <Compile Update="Views\CreatePlace.xaml.cs">
+      <DependentUpon>CreatePlace.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\ListOfLivreurs.xaml.cs">
-      <DependentUpon>ListOfLivreurs.xaml</DependentUpon>
+    <Compile Update="Views\ListOfPlace.xaml.cs">
+      <DependentUpon>ListOfPlace.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ReservationListPage.xaml.cs">
+      <DependentUpon>ReservationListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ReservationDetailsPage.xaml.cs">
+      <DependentUpon>ReservationDetailsPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\UpdateOrDeleteLivreur.xaml.cs">
       <DependentUpon>UpdateOrDeleteLivreur.xaml</DependentUpon>
@@ -46,22 +67,22 @@
     <EmbeddedResource Update="Views\auth.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\EditColisPage.xaml">
+    <EmbeddedResource Update="Views\EditPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\AddColisPage.xaml">
+    <EmbeddedResource Update="Views\AddPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\AddLivraisonPage.xaml">
+    <EmbeddedResource Update="Views\AddReservationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\CreateLivreur.xaml">
+    <EmbeddedResource Update="Views\CreatePlace.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\EditLivraisonPage.xaml">
+    <EmbeddedResource Update="Views\EditReservationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\GestionLivreurs.xaml">
+    <EmbeddedResource Update="Views\GestionPlace.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Home.xaml">
@@ -70,13 +91,13 @@
     <EmbeddedResource Update="Views\insc.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListOfLivreurs.xaml">
+    <EmbeddedResource Update="Views\ListOfPlace.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\LivraisonDetailsPage.xaml">
+    <EmbeddedResource Update="Views\ReservationDetailsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\LivraisonsListPage.xaml">
+    <EmbeddedResource Update="Views\ReservationListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LoginPage.xaml">

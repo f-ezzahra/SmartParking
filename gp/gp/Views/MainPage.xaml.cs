@@ -18,5 +18,9 @@ namespace gp.Views
             Navigation.InsertPageBefore(new LoginPage(), this);
             await Navigation.PopAsync();
         }
+        private async void OnLogoutButtonadminClicked(object sender, EventArgs e)
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new login2());
+        }
     }
 }

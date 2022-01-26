@@ -8,6 +8,7 @@
              Title="Smart Parking application">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="S'inscrire" Icon="signup.png" Clicked="OnSignUpButtonClicked" />
+        <ToolbarItem Text="admin" Icon="admin.png" Clicked="OnSignUpAdminButtonClicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <Frame>

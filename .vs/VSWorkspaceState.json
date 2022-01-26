@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\gp",
+    "\\gp\\gp",
+    "\\gp\\gp\\Views"
   ],
-  "SelectedNode": "\\gp.sln",
+  "SelectedNode": "\\gp\\gp\\Views\\LivraisonDetailsPage.xaml",
   "PreviewInSolutionExplorer": false
 }

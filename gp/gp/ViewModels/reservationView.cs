@@ -17,9 +17,9 @@ namespace gp.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        private List<Livraison> _listOfLivreurDetails;
+        private List<Reserver> _listOfLivreurDetails;
 
-        public List<Livraison> ListOfLivreurDetails
+        public List<Reserver> ListOfLivreurDetails
         {
             get { return _listOfLivreurDetails; }
             set
@@ -33,13 +33,13 @@ namespace gp.ViewModels
         public reservationView()
         {
             // supply the public ListOfCustomerDetails with the retrieved list of details
-            ListOfLivreurDetails = _getRealmInstance.All<Livraison>().ToList();
+            ListOfLivreurDetails = _getRealmInstance.All<Reserver>().ToList();
         }
 
-        private Livraison _livreurDetails = new Livraison();
+        private Reserver _livreurDetails = new Reserver();
         private string livraisonId;
 
-        public Livraison LivreurDetails
+        public Reserver LivreurDetails
         {
             get { return _livreurDetails; }
             set
@@ -85,7 +85,7 @@ namespace gp.ViewModels
                 return new Command(() =>
                 {
                     // instantiate to supply the new set of details
-                    var livreurDetailsUpdate = new Livraison
+                    var livreurDetailsUpdate = new Reserver
                     {
                         LivraisonId = _livreurDetails.LivraisonId,
                         NomEmetteur = _livreurDetails.NomEmetteur,
@@ -109,7 +109,7 @@ namespace gp.ViewModels
                 return new Command(() =>
                 {
                     // get the details with specific id
-                    var getAllLivreurDetailsById = _getRealmInstance.All<Livraison>().First(x => x.LivraisonId == _livreurDetails.LivraisonId);
+                    var getAllLivreurDetailsById = _getRealmInstance.All<Reserver>().First(x => x.LivraisonId == _livreurDetails.LivraisonId);
 
                     using (var transaction = _getRealmInstance.BeginWrite())
                     {

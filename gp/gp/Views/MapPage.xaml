@@ -10,7 +10,7 @@
              Title="Suivre commande">
     
     <ContentPage.BindingContext>
-        <livreurVm:LivreurViewModel/>
+        <livreurVm:PlaceViewModel/>
     </ContentPage.BindingContext>
 
     <ContentPage.Content>

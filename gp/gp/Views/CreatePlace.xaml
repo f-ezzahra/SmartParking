@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="gp.Views.CreateLivreur"
+             xmlns:livreurVm="clr-namespace:gp.ViewModels"
+             Title="Ajouter place">
+
+    <ContentPage.BindingContext>
+        <livreurVm:PlaceViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Frame Margin="10,10,10,-10" OutlineColor="White" HasShadow="true">
+            <StackLayout Padding="20">
+                <Label Text="Etat"/>
+                <Entry Text="{Binding LivreurDetails.LivreurName, Mode=TwoWay}"/>
+
+                <Label Text="emplacement"/>
+                <Entry Text="{Binding LivreurDetails.LivreurTel, Mode=TwoWay}"/>
+
+                <Label Text="numero du parking"/>
+                <Entry Text="{Binding LivreurDetails.LivreurAdresse, Mode=TwoWay}"/>
+
+                <Button Text="Ajouter" TextColor="White" BackgroundColor="DarkBlue"
+          Command="{Binding CreateCommand}"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

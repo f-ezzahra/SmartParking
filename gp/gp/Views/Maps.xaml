@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="gp.Views.Maps">
+             x:Class="gp.Views.Maps"
+             xmlns:livreursVm="clr-namespace:gp.ViewModels">
+    <ContentPage.BindingContext>
+        <livreursVm:PlaceViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
 
@@ -10,6 +14,7 @@
             </StackLayout>
             <Button Text="Open location using Maps app"
                 Clicked="OnLocationButtonClicked" BackgroundColor="DarkBlue" TextColor="White"/>
+            <Button Text="get position" TextColor="White" BackgroundColor="DarkBlue" Command="{Binding navcommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
